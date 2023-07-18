@@ -1,2 +1,9 @@
+carz:
+  app:
+    name: 'DriftCarz'
+    scheduler:
+      auto:
+        expression: '* * * * *'
+
 server:
   port: 8088
