@@ -14,7 +14,7 @@
 	<name>DRIFT-CARZ</name>
 	<description>Live project for rental cars</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 		<hilla.version>2.1.1</hilla.version>
 	</properties>
 	<dependencies>

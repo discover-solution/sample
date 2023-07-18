@@ -8,6 +8,6 @@ public class DriftCarzApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DriftCarzApplication.class, args);
+		System.out.println("Hello Drift Carz application");
 	}
-
 }
