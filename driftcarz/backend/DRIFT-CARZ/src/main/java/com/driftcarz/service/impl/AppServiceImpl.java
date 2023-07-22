@@ -10,6 +10,6 @@ public class AppServiceImpl implements AppService {
 
     @Override
     public ResponseWrapper getAllCars() {
-        return new ResponseWrapper(null,"Successful", HttpStatus.OK);
+        return new ResponseWrapper(null,"", HttpStatus.OK);
     }
 }

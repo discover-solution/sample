@@ -18,8 +18,15 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @PostMapping(path = "/addUser")
+    @PostMapping(path = "/userRegistration")
     public ResponseEntity<ResponseWrapper> addUser(@RequestBody UserDTO userDTO){
+        userDTO = AppUtils.modifyUserInfo(userDTO);
+        ResponseWrapper responseWrapper = userService.addUser(userDTO);
+        return new ResponseEntity<>(responseWrapper, responseWrapper.getStatus());
+    }
+
+    @PostMapping(path = "/userLogon")
+    public ResponseEntity<ResponseWrapper> userLogin(@RequestBody UserDTO userDTO){
         userDTO = AppUtils.modifyUserInfo(userDTO);
         ResponseWrapper responseWrapper = userService.addUser(userDTO);
         return new ResponseEntity<>(responseWrapper, responseWrapper.getStatus());
