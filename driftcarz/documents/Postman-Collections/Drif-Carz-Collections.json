@@ -43,7 +43,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8088/users/addUser",
+							"raw": "http://localhost:8088/users/userRegistration",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -51,7 +51,7 @@
 							"port": "8088",
 							"path": [
 								"users",
-								"addUser"
+								"userRegistration"
 							]
 						}
 					},
@@ -72,7 +72,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8088/users/addUser",
+							"raw": "http://localhost:8088/users/userRegistration",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -80,7 +80,7 @@
 							"port": "8088",
 							"path": [
 								"users",
-								"addUser"
+								"userRegistration"
 							]
 						}
 					},
@@ -101,7 +101,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8088/users/addUser",
+							"raw": "http://localhost:8088/users/userRegistration",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -109,7 +109,7 @@
 							"port": "8088",
 							"path": [
 								"users",
-								"addUser"
+								"userRegistration"
 							]
 						}
 					},
