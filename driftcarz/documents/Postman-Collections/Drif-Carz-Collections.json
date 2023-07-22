@@ -29,18 +29,88 @@
 					"response": []
 				},
 				{
-					"name": "Add User",
+					"name": "Add User 1",
 					"request": {
 						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "",
+							"raw": "{\r\n    \"fullName\" : \"Gautam Raj\",\r\n    \"password\" : \"abcd1234\",\r\n    \"mobileNumber\" : 9113214058,\r\n    \"emailId\" : \"grajdbest@gmail.com\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
+						},
+						"url": {
+							"raw": "http://localhost:8088/users/addUser",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8088",
+							"path": [
+								"users",
+								"addUser"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add User 2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"fullName\" : \"Sonu Singh\",\r\n    \"password\" : \"abcd1234\",\r\n    \"mobileNumber\" : 9066917689,\r\n    \"emailId\" : \"gautamraj00001@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8088/users/addUser",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8088",
+							"path": [
+								"users",
+								"addUser"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add User 3",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"fullName\" : \"Gautam Singh\",\r\n    \"password\" : \"abcd1234\",\r\n    \"mobileNumber\" : 6362778153,\r\n    \"emailId\" : \"gautamrajdbest@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8088/users/addUser",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8088",
+							"path": [
+								"users",
+								"addUser"
+							]
 						}
 					},
 					"response": []
@@ -68,15 +138,102 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8088/drif-carz/allCars",
+							"raw": "http://localhost:8088/vehicles/showAllVehicles",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8088",
 							"path": [
-								"drif-carz",
-								"allCars"
+								"vehicles",
+								"showAllVehicles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Vehicle : Swift LXI",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"vehicleName\" : \"Swift LXI\",\r\n    \"vehicleNumber\" : \"KA01-1234\",\r\n    \"seater\" : 5,\r\n    \"fuelType\" : \"Petrol\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8088/vehicles/addVehicle",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8088",
+							"path": [
+								"vehicles",
+								"addVehicle"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Vehicle : Tata Punch",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"vehicleName\" : \"Tata Punch\",\r\n    \"vehicleNumber\" : \"KA02-1234\",\r\n    \"seater\" : 5,\r\n    \"fuelType\" : \"Petrol\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8088/vehicles/addVehicle",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8088",
+							"path": [
+								"vehicles",
+								"addVehicle"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Vehicle : Mahindra Scorpio",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"vehicleName\" : \"Mahindra Scorpio\",\r\n    \"vehicleNumber\" : \"KA12-5678\",\r\n    \"seater\" : 7,\r\n    \"fuelType\" : \"Diesel\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8088/vehicles/addVehicle",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8088",
+							"path": [
+								"vehicles",
+								"addVehicle"
 							]
 						}
 					},

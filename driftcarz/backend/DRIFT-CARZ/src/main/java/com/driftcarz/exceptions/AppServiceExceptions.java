@@ -1,4 +1,5 @@
 package com.driftcarz.exceptions;
 
-public class AppServiceExceptions extends Exception{
+public class AppServiceExceptions extends RuntimeException{
+
 }
