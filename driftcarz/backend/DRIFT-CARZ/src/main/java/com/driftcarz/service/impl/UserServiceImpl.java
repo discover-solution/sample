@@ -5,6 +5,7 @@ import com.driftcarz.dto.UserDTO;
 import com.driftcarz.model.User;
 import com.driftcarz.repo.UserRepository;
 import com.driftcarz.service.UserService;
+import com.driftcarz.utils.AppUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -27,4 +28,5 @@ public class UserServiceImpl implements UserService {
             return new ResponseWrapper("Service Exception", userDTO +" Failed to be save in DB.", HttpStatus.EXPECTATION_FAILED);
         }
     }
+
 }

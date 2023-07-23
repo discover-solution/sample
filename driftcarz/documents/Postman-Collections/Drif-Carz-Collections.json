@@ -2,7 +2,8 @@
 	"info": {
 		"_postman_id": "77393bcf-3f9c-4fda-9162-3be6cc2530d1",
 		"name": "Drif-Carz",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28701482"
 	},
 	"item": [
 		{
@@ -43,15 +44,15 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8088/users/userRegistration",
+							"raw": "http://localhost:8088/user/registration",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8088",
 							"path": [
-								"users",
-								"userRegistration"
+								"user",
+								"registration"
 							]
 						}
 					},
@@ -72,15 +73,15 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8088/users/userRegistration",
+							"raw": "http://localhost:8088/user/registration",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8088",
 							"path": [
-								"users",
-								"userRegistration"
+								"user",
+								"registration"
 							]
 						}
 					},
@@ -101,15 +102,15 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8088/users/userRegistration",
+							"raw": "http://localhost:8088/user/registration",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8088",
 							"path": [
-								"users",
-								"userRegistration"
+								"user",
+								"registration"
 							]
 						}
 					},
